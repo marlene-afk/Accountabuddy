@@ -1,0 +1,3 @@
+Make sure goals button work and updates so that we can see it on the website. 
+Add demo video.
+Somehow make it prettier???
