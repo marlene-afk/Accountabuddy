@@ -6,7 +6,7 @@
     <title>AccountaBuddy - Your Partner in Achieving Goals</title>
     <link rel="stylesheet" href="accountabuddy.css">
 </head>
-<body>
+<body id="top">
     <header>
         <nav>
             <div class="logo">
@@ -29,7 +29,7 @@
             <p>Stay accountable, track progress, and achieve more with your personal accountability buddy.</p>
             <div>
                 <a href="#" class="btn">Download App</a>
-                <a href="#demo" class="btn btn-secondary">Watch Demo</a>
+		<a href="#signup" class="btn btn-secondary" id="openSignup">Sign Up</a>
             </div>
         </section>
 
@@ -145,7 +145,31 @@
             <a href="#" class="btn">Get it on Google Play</a>
         </div>
     </div>
+	<div id="signup" class="modal">
+    		<div class="modal-content">
+        	<a href="#top" class="close">&times;</a>
+        	<h2>Create an Account</h2>
 
+        		<form class="signup-form" action="#confirmation">
+            			<input type="text" placeholder="Full Name" required>
+            			<input type="email" placeholder="Email Address" required>
+            			<input type="password" placeholder="Password" required>
+            			<button type="submit" class="btn">Create Account</button>
+        		</form>
+    		</div>
+	</div>
+<div id="confirmation" class="modal">
+    <div class="modal-content">
+        <a href="#top" class="close">&times;</a>
+        <div class="confirmation-content">
+            <img src="checkmark.jpg" alt="Success" class="checkmark">
+            <h2>Success!</h2>
+            <p>Your information has been captured successfully.</p>
+            <p>Welcome to AccountaBuddy!</p>
+            <a href="#top" class="btn">Get Started</a>
+        </div>
+    </div>
+</div>
     <footer>
         <p><strong>AccountaBuddy</strong> - Your partner in achieving personal and professional goals</p>
         <p>
@@ -157,5 +181,4 @@
         <p>Copyright &copy; 2025 AccountaBuddy. All rights reserved.</p>
     </footer>
 </body>
-
 </html>
