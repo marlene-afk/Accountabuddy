@@ -1,206 +1,255 @@
 body {
-    background: linear-gradient(135deg, #1ABC9C 0%, #20B2AA 100%);
-    color: #003366;
+    background: linear-gradient(135deg, #5dded8 0%, #66d9cf 100%);
+    color: #1c1c84;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    min-height: 100vh;
-}
+    min-height: 100vh;}
 
 header {
-    background-color: #0f6b5f;
+    background-color: #14C4C1;
     color: white;
-    padding: 15px 0;
-}
+    padding: 15px 0;}
 
 nav {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
-}
+    padding: 0 20px;}
 
 .logo {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px;
     display: flex;
-    align-items: center;
-}
+    align-items: center;}
 
 .logo img {
     width: 50px;
     height: 50px;
-    margin-right: 10px;
-}
+    margin-right: 10px;}
 
 .logo-text {
-    display: inline;
-}
+    display: inline;}
 
 nav ul {
     list-style: none;
     padding: 0;
-    margin: 0;
-}
+    margin: 0;}
 
 nav ul li {
     display: inline;
-    margin-right: 20px;
-}
+    margin-right: 20px;}
 
 nav ul li a {
     color: white;
-    text-decoration: none;
-}
+    text-decoration: none;}
 
 nav ul li a:hover {
-    text-decoration: underline;
-}
+    text-decoration: underline;}
 
 .container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px;
-}
+    padding: 20px;}
 
 h1, h2 {
-    color: #003366;
-}
+    color: #1c1c84;}
 
 .section {
     background-color: white;
-    border: 2px solid #0f6b5f;
+    border: 2px solid #14C4C1;
     padding: 20px;
     margin: 20px 0;
-    border-radius: 5px;
-}
+    border-radius: 20px;}
 
 .btn {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0f6b5f;
+    background-color: #14C4C1;
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    margin: 5px;
-}
+    margin: 5px;}
 
 .btn:hover {
-    background-color: #1ABC9C;
-}
+    background-color: #5dded8;}
 
 .btn-secondary {
-    background-color: #20B2AA;
-}
+    background-color: #14C4C1;}
 
 .btn-secondary:hover {
-    background-color: #3fccbb;
-}
+    background-color: #14C4C1;}
 
 .feature-list {
     list-style: none;
-    padding: 0;
-}
+    padding: 0;}
 
 .feature-list li {
-    background-color: #e6f9f5;
+    background-color: white;
     padding: 15px;
     margin: 10px 0;
-    border-left: 4px solid #1ABC9C;
-}
+    border-left: 4px solid #5dded8;
+    border-radius: 20px;}
 
 .feature-list h3 {
     margin-top: 0;
-    color: #0f6b5f;
-}
+    color: #14C4C1;}
 
 .demo-placeholder {
     background-color: #e6f9f5;
     padding: 60px;
     text-align: center;
-    border: 2px solid #1ABC9C;
-    margin: 20px 0;
-}
+    border: 2px solid #5dded8;
+    margin: 20px 0;}
 
 .demo-note {
     font-size: 14px;
-    color: #666;
-}
+    color: #666;}
 
 .testimonial {
     background-color: #f9f9f9;
     border: 1px solid #ccc;
     padding: 15px;
     margin: 15px 0;
-}
+    border-radius: 20px;}
 
 .rating {
     color: #ffcc00;
-    font-size: 18px;
-}
+    font-size: 18px;}
 
 .goal-item {
     background-color: white;
-    border: 1px solid #1ABC9C;
+    border: 1px solid #5dded8;
     padding: 15px;
     margin: 15px 0;
-}
+    border-radius: 20px;}
 
 .goal-item h4 {
-    color: #0f6b5f;
-    margin-top: 0;
-}
+    color: #14C4C1;
+    margin-top: 0;}
 
 .progress-bar {
     background-color: #e0e0e0;
     height: 20px;
     border-radius: 10px;
     overflow: hidden;
-    margin: 10px 0;
-}
+    margin: 10px 0;}
 
 .progress-fill {
-    background-color: #1ABC9C;
-    height: 100%;
-}
+    background-color: #5dded8;
+    height: 100%;}
 
 .referral-box {
-    background-color: #fffacd;
-    border: 2px dashed #1ABC9C;
+    background-color: white;
+    border: 2px dashed #5dded8;
     padding: 20px;
     text-align: center;
     margin: 20px 0;
-}
+    border-radius: 20px;}
 
 .referral-code {
     font-size: 32px;
     font-weight: bold;
-    color: #0f6b5f;
+    color: #14C4C1;
     background-color: white;
     padding: 15px;
-    border: 2px solid #1ABC9C;
+    border: 2px solid #5dded8;
     display: inline-block;
     margin: 15px 0;
-}
+    border-radius: 10px;}
 
 .cta-final {
-    text-align: center;
-}
+    text-align: center;}
 
 footer {
-    background-color: #0f6b5f;
-    color: white;
+    background-color: #14C4C1;
+    color: #1c1c84;
     text-align: center;
     padding: 20px;
-    margin-top: 40px;
-}
+    margin-top: 40px;}
 
 footer a {
-    color: #99ccff;
-    text-decoration: none;
-}
+    color: #1c1c84;
+    text-decoration: none;}
 
 footer a:hover {
-    text-decoration: underline;
-}
+    color: #1c1c84;
+    text-decoration: underline;}
+
+#signup {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);}
+
+#signup:target {
+  display: flex;}
+
+#signup .modal-content {
+  margin: auto;}
+
+#signup .modal-content {
+  background: white;
+  width: 400px;
+  max-width: 90%;
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);}
+
+#signup .signup-form input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;}
+
+#signup .close {
+  float: right;
+  font-size: 24px;
+  text-decoration: none;
+  color: #1c1c84;}
+
+#confirmation {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);}
+
+#confirmation:target {
+  display: flex;}
+
+#confirmation .modal-content {
+  background: white;
+  width: 400px;
+  max-width: 90%;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);}
+
+#confirmation .confirmation-content {
+  text-align: center;}
+
+#confirmation .checkmark {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+  display: block;}
+
+#confirmation h2 {
+  color: #14C4C1;
+  margin: 20px 0 10px 0;}
+
+#confirmation p {
+  color: #1c1c84;
+  margin: 10px 0;}
