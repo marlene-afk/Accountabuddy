@@ -106,10 +106,10 @@ h1, h2 {
 
 .feature-list li {
     background-color: white;
-    padding: 15px;
-    margin: 10px 0;
-    border-left: 4px solid #5dded8;
-    border-radius: 20px;
+    padding: 15px 20px;
+    margin: 15px 0;
+    border: 2px solid #14C4C1;
+    border-radius: 12px;
 }
 
 .feature-list h3 {
@@ -301,3 +301,4 @@ footer a:hover {
   color: #1c1c84;
   margin: 10px 0;
 }
+
