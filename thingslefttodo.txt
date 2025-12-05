@@ -1,1 +1,3 @@
 Make sure goals button work and updates so that we can see it on the website. 
+reword accountabuddy.html again
+change little links at the bottom of each page to diplay all links. 
