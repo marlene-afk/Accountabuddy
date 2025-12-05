@@ -1,2 +1,1 @@
 Make sure goals button work and updates so that we can see it on the website. 
-Reword the home page sections to fit students. 
