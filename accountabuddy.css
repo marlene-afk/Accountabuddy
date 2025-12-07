@@ -333,3 +333,28 @@ footer a:hover {
   margin: 20px auto;
   display: block;
 }
+
+/* Generic modal styling for the Add Goal popup */
+.modal {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal:target {
+  display: flex;
+}
+
+.modal .modal-content {
+  background: white;
+  width: 400px;
+  max-width: 90%;
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.4);
+}
